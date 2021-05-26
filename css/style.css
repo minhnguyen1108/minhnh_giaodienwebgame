@@ -1,0 +1,441 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #080823;
+}
+.boxbody{
+    margin: 0 auto;
+}
+.boxcenter{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.boxtop{
+    width: 100%;
+    min-height: 60px;
+    margin: 0 auto;
+    position: relative;
+    background-color:  rgba(48,46,102,.5);
+}
+
+.logo{
+    float: left;
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.logo img{
+    float: right;
+    margin-top: 10px;
+}
+.menu{
+    float: left;
+    width: 850px;
+    margin: 0;
+    top: 0;
+    right: 365px;
+    padding: 0;
+    min-height: 60px;
+}
+ul{
+    list-style: none;
+}
+.menu > ul > li{
+    float: right;
+    text-align: center;
+    padding: 3px 80px 80px 3px;
+}
+ul li a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+}
+.i1 ul{
+    display: none;
+    position: absolute;
+    background-color: rgba(48, 46, 102, 0.9);
+    z-index: 2;
+    margin-left: -40px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.i1:hover ul{
+    display: block;
+}
+.i1 > ul > li{
+    float: none;
+    font-size: 14pt;
+    color: #7b8090;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+.i1 > ul li:hover{
+    color: #FFF;
+}
+.i1 i{
+    margin-right: 5px;
+    color: white;
+}
+.section ul > li{
+    float: right;
+    text-align: center;
+    padding: 3px 80px 80px 3px;
+}
+.hotline{
+    float: left;
+    width: 318px;
+    margin: 0 auto;
+    min-height: 60px;
+}
+.hotline img{
+    margin-top: 10px;
+}
+.banner{
+    width: 100%;
+    margin-bottom: 20px;
+    min-height: 690px;
+    background-image: url('../img/banner.PNG');
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.banner img{
+    text-align: center;
+}
+
+.boxbody{
+    width: 1220px;
+    margin: 0 auto;
+    margin-top: 60px;
+    min-height: 1900px;
+    background-color: #080823;
+}
+
+.td{
+    font-size: 20pt;
+    color: white;
+}
+
+.tieude1{
+    width: 300px;
+    float: left;
+    min-height: 80px;
+    background-color: #080823;
+}
+
+.boxfirst{
+    float: left;
+    width: 100%;
+    min-height: 300px;
+    background-color:  #080823;
+}
+
+.boxf1{
+    float: left;
+    width: 279px;
+    margin-right: 1.5%;
+    background-image: url('../img/boxf1.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+    
+}
+
+
+.boxf2{
+    float: left;
+    width: 279px;
+    margin-right: 1%;
+    margin-left: 1.5%;
+    background-image: url('../img/boxf2.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+    
+}
+
+.boxf3{
+    float: left;
+    width: 279px;
+    margin-right: 1%;
+    margin-left: 1.5%;
+    background-image: url('../img/boxf3.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+    
+}
+
+.boxf4{
+    float: left;
+    width: 279px;
+    margin-left: 1.5%;
+    background-image: url('../img/boxf4.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+    
+}
+
+.tieude2{
+    width: 300px;
+    float: left;
+    margin-top: 40px;
+    min-height: 80px;
+    background-color:  #080823;
+}
+
+.boxsecond{
+    float: left;
+    width: 100%;
+    min-height: 300px;
+    background-color:  #080823;
+}
+
+.boxs1{
+    float: left;
+    width: 279px;
+    margin-right: 1.5%;
+    background-image: url('../img/boxs1.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+
+}
+
+.boxs2{
+    float: left;
+    width: 279px;
+    margin-right: 1%;
+    margin-left: 1.5%;
+    background-image: url('../img/boxs2.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+
+}
+
+.boxs3{
+    float: left;
+    width: 279px;
+    margin-right: 1%;
+    margin-left: 1.5%;
+    background-image: url('../img/boxs3.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+
+}
+
+.boxs4{
+    float: left;
+    width: 279px;
+    margin-left: 1.5%;
+    background-image: url('../img/boxs4.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 340px;
+}
+
+.tieude3{
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+    min-height: 80px;
+    background-color:  #080823;
+}
+
+.boxthird{
+    float: left;
+    width: 100%;
+    min-height: 300px;
+    background-color:  #080823;
+}
+
+.boxt1{
+    float: left;
+    width: 595px;
+    margin-right: 1%;
+    background-image: url('../img/boxt1.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 360px;
+
+}
+
+.boxt2{
+    float: left;
+    width: 595px;
+    margin-left: 1%;
+    background-image: url('../img/boxt2.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 360px;
+}
+
+.tieude4{
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+    min-height: 80px;
+    margin-bottom: 10px;
+    background-color:  #080823;
+}
+
+
+.boxfour{
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    background-color:  #080823;
+}
+
+.boxfo1{
+    float: left;
+    width: 218px;
+    min-height: 150px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo1.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.boxfo2{
+    float: left;
+    width: 218px;
+    min-height: 150px;   
+    margin-right: 2%;
+    background-image: url('../img/boxfo2.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo3{
+    float: left;
+    width: 218px;
+    min-height: 150px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo3.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo4{
+    float: left;
+    width: 218px;
+    min-height: 150px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo4.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo5{
+    float: left;
+    width: 218px;
+    min-height: 150px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo5.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo6{
+    float: left;
+    width: 224px;
+    min-height: 150px;
+    background-image: url('../img/boxfo6.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo7{
+    float: left;
+    width: 224px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo7.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo8{
+    float: left;
+    width: 224px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo8.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo9{
+    float: left;
+    width: 224px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo9.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.boxfo10{
+    float: left;
+    width: 224px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-right: 2%;
+    background-image: url('../img/boxfo10.PNG');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.bottom{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12pt;
+    color: rgb(209, 199, 199);
+    min-height: 100px;
+    background-color: black;
+}
+
+.footer{
+    margin-top: 30px;
+}
+
